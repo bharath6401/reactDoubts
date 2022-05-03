@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.image {
+  width: 200px;
+  height: 100px;
+  margin: 10px;
+  margin-left: 10px;
+}
+p {
+  margin: 10px;
+}
+
+.subContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  padding: 10px;
+  height: 100vh;
+  overflow: wrap;
+  /* align-items: center;
+  justify-content: center; */
+}
+.mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  justify-content: center;
+}
